@@ -1,11 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b09737-ef43-4229-bb50-b70973b939a2" name="Default Changelist" comment="" />
+    <list default="true" id="b9b09737-ef43-4229-bb50-b70973b939a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TestCase.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/ReadHTML.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/ip.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/readExcel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/unauthorized-rce.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/CVE-2017-1000353-1.1-SNAPSHOT-all.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/diaoyunhao.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/jenkinsCVE-2017-100053.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/jenkinsCVE-2018-1000110.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/jenkins_comm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/jenkins_poc.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-4-unacc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.14.6/libexec" />
   <component name="Git.Settings">
@@ -14,31 +66,142 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="s7sztqtq" />
+  </component>
   <component name="ProjectId" id="1l8trZIxvB65DaW6ddaiVkuNcGW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/jenkins" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build JiuAn" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="JiuAn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="JiuAn" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build JiuAn" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="test commit and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit and push" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1211" y="524" key="SettingsEditor" timestamp="1606990774225">
+    <state x="-1120" y="550" key="#Deployment" timestamp="1607051705406">
       <screen x="-1440" y="-395" width="1440" height="2560" />
     </state>
-    <state x="-1211" y="524" key="SettingsEditor/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1606990774225" />
+    <state x="-1120" y="550" key="#Deployment/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607051705406" />
+    <state x="-1136" y="537" key="#SSH_Configurations" timestamp="1607051671625">
+      <screen x="-1440" y="-395" width="1440" height="2560" />
+    </state>
+    <state x="-1136" y="537" key="#SSH_Configurations/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607051671625" />
+    <state x="-1256" y="547" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607326063006">
+      <screen x="-1440" y="-395" width="1440" height="2560" />
+    </state>
+    <state x="-1256" y="547" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.-395.1440.2560/0.23.1920.1057/1920.136.1280.777@-1440.-395.1440.2560" timestamp="1607326063006" />
+    <state x="-974" y="694" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607417078584">
+      <screen x="-1440" y="-395" width="1440" height="2560" />
+    </state>
+    <state x="-974" y="694" key="#com.intellij.fileTypes.FileTypeChooser/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607417078584" />
+    <state width="1398" height="793" key="GridCell.Tab.0.bottom" timestamp="1607485685706">
+      <screen x="-1440" y="-395" width="1440" height="2560" />
+    </state>
+    <state width="1398" height="793" key="GridCell.Tab.0.bottom/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607485685706" />
+    <state width="1398" height="793" key="GridCell.Tab.0.bottom/-1440.-395.1440.2560/0.23.1920.1057/1920.136.1280.777@-1440.-395.1440.2560" timestamp="1607326073249" />
+    <state width="1398" height="793" key="GridCell.Tab.0.center" timestamp="1607485685704">
+      <screen x="-1440" y="-395" width="1440" height="2560" />
+    </state>
+    <state width="1398" height="793" key="GridCell.Tab.0.center/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607485685704" />
+    <state width="1398" height="793" key="GridCell.Tab.0.center/-1440.-395.1440.2560/0.23.1920.1057/1920.136.1280.777@-1440.-395.1440.2560" timestamp="1607326073247" />
+    <state width="1398" height="793" key="GridCell.Tab.0.left" timestamp="1607485685703">
+      <screen x="-1440" y="-395" width="1440" height="2560" />
+    </state>
+    <state width="1398" height="793" key="GridCell.Tab.0.left/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607485685703" />
+    <state width="1398" height="793" key="GridCell.Tab.0.left/-1440.-395.1440.2560/0.23.1920.1057/1920.136.1280.777@-1440.-395.1440.2560" timestamp="1607326073245" />
+    <state width="1398" height="793" key="GridCell.Tab.0.right" timestamp="1607485685705">
+      <screen x="-1440" y="-395" width="1440" height="2560" />
+    </state>
+    <state width="1398" height="793" key="GridCell.Tab.0.right/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607485685705" />
+    <state width="1398" height="793" key="GridCell.Tab.0.right/-1440.-395.1440.2560/0.23.1920.1057/1920.136.1280.777@-1440.-395.1440.2560" timestamp="1607326073248" />
+    <state x="-1211" y="524" key="SettingsEditor" timestamp="1607002432988">
+      <screen x="-1440" y="-395" width="1440" height="2560" />
+    </state>
+    <state x="-1211" y="524" key="SettingsEditor/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607002432988" />
+    <state x="-1120" y="612" key="Vcs.Push.Dialog.v2" timestamp="1606991383668">
+      <screen x="-1440" y="-395" width="1440" height="2560" />
+    </state>
+    <state x="-1120" y="612" key="Vcs.Push.Dialog.v2/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1606991383668" />
+    <state x="-871" y="791" key="WebDeployment.AddServerDialog.v.1" timestamp="1607051629348">
+      <screen x="-1440" y="-395" width="1440" height="2560" />
+    </state>
+    <state x="-871" y="791" key="WebDeployment.AddServerDialog.v.1/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607051629348" />
+    <state x="-829" y="622" key="ftp.server.browser" timestamp="1607051700260">
+      <screen x="-1440" y="-395" width="1440" height="2560" />
+    </state>
+    <state x="-829" y="622" key="ftp.server.browser/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607051700260" />
   </component>
 </project>
