@@ -1,4 +1,4 @@
-module JiuAn
+module github.com/MerSna/JiuAn
 
 go 1.14
 
