@@ -26,7 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b09737-ef43-4229-bb50-b70973b939a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test commit and push" />
     <MESSAGE value="add docker module&#10;add jenkins module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add docker module&#10;add jenkins module" />
+    <MESSAGE value="Only for educational purposes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Only for educational purposes" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -173,10 +174,10 @@
       <screen x="-1440" y="-395" width="1440" height="2560" />
     </state>
     <state x="-1211" y="524" key="SettingsEditor/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607002432988" />
-    <state x="-1120" y="612" key="Vcs.Push.Dialog.v2" timestamp="1607504120198">
+    <state x="-1120" y="612" key="Vcs.Push.Dialog.v2" timestamp="1607504349441">
       <screen x="-1440" y="-395" width="1440" height="2560" />
     </state>
-    <state x="-1120" y="612" key="Vcs.Push.Dialog.v2/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607504120198" />
+    <state x="-1120" y="612" key="Vcs.Push.Dialog.v2/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607504349441" />
     <state x="-871" y="791" key="WebDeployment.AddServerDialog.v.1" timestamp="1607051629348">
       <screen x="-1440" y="-395" width="1440" height="2560" />
     </state>
