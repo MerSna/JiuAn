@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+//TODO 设计不合理 改一改
 func DockerUnauthorized(ip string, ports []string, timeOut time.Duration) ([]string, bool) {
 	addr := make([]string, 0)
 	if len(ports) == 0 {
@@ -40,22 +41,23 @@ func DockerUnauthorized(ip string, ports []string, timeOut time.Duration) ([]str
 	}
 }
 
-func DockerUnauthorized_RCE() {
-	//transport := new(http.Transport)
-	//sockets.ConfigureTransport(transport, "tcp", host_addr)
-	//httpclient := &http.Client{
-	//	Transport: transport,
-	//	Timeout: time.Second * 3,
-	//}
-	//cli, err := client.NewClient("tcp://"+ host_addr, version, httpclient, nil)
-	//if err != nil {
-	//	continue
-	//}
-	//_, err = cli.ContainerList(context.Background(), types.ContainerListOptions{})
-	//if err != nil {
-	//	fmt.Println(err)
-	//	continue
-	//} else {
-	//	addr = append(addr, host_addr)
-	//}
-}
+//
+//func DockerUnauthorized_RCE() {
+//	transport := new(http.Transport)
+//	sockets.ConfigureTransport(transport, "tcp", host_addr)
+//	httpclient := &http.Client{
+//		Transport: transport,
+//		Timeout: time.Second * 3,
+//	}
+//	cli, err := client.NewClient("tcp://"+ host_addr, version, httpclient, nil)
+//	if err != nil {
+//		continue
+//	}
+//	_, err = cli.ContainerList(context.Background(), types.ContainerListOptions{})
+//	if err != nil {
+//		fmt.Println(err)
+//		continue
+//	} else {
+//		addr = append(addr, host_addr)
+//	}
+//}

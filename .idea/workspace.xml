@@ -26,7 +26,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b09737-ef43-4229-bb50-b70973b939a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/containerdCVE-2020-15257.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/docker_comm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/copy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/dlv.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/unauthorized-rce.go" beforeDir="false" afterPath="$PROJECT_DIR$/docker/unauthorized-rce.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +80,13 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -81,23 +94,45 @@
       <recent name="$PROJECT_DIR$/jenkins" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="go build JiuAn" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build github.com/MerSna/JiuAn/main">
+    <configuration name="go build github.com/MerSna/JiuAn/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="JiuAn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="JiuAn" />
+      <filePath value="$PROJECT_DIR$/main/main.go" />
+      <package value="github.com/MerSna/JiuAn/main" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="JiuAn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/main.go" />
+      <package value="JiuAn" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cve2020-15257" type="GoRemoteDebugConfigurationType" factoryName="Go Remote" host="10.227.74.121">
+      <option name="disconnectOption" value="STOP" />
+      <disconnect value="STOP" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build github.com/MerSna/JiuAn/main" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Remote.cve2020-15257" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build JiuAn" />
+        <item itemvalue="Go Build.go build github.com/MerSna/JiuAn/main" />
+        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -128,63 +163,21 @@
     <MESSAGE value="test commit and push" />
     <MESSAGE value="add docker module&#10;add jenkins module" />
     <MESSAGE value="Only for educational purposes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Only for educational purposes" />
+    <MESSAGE value="JiuAn" />
+    <option name="LAST_COMMIT_MESSAGE" value="JiuAn" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="-1120" y="550" key="#Deployment" timestamp="1607051705406">
-      <screen x="-1440" y="-395" width="1440" height="2560" />
-    </state>
-    <state x="-1120" y="550" key="#Deployment/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607051705406" />
-    <state x="-1136" y="537" key="#SSH_Configurations" timestamp="1607051671625">
-      <screen x="-1440" y="-395" width="1440" height="2560" />
-    </state>
-    <state x="-1136" y="537" key="#SSH_Configurations/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607051671625" />
-    <state x="-1256" y="547" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607326063006">
-      <screen x="-1440" y="-395" width="1440" height="2560" />
-    </state>
-    <state x="-1256" y="547" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.-395.1440.2560/0.23.1920.1057/1920.136.1280.777@-1440.-395.1440.2560" timestamp="1607326063006" />
-    <state x="-974" y="694" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607417078584">
-      <screen x="-1440" y="-395" width="1440" height="2560" />
-    </state>
-    <state x="-974" y="694" key="#com.intellij.fileTypes.FileTypeChooser/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607417078584" />
-    <state width="1398" height="793" key="GridCell.Tab.0.bottom" timestamp="1607503986747">
-      <screen x="-1440" y="-395" width="1440" height="2560" />
-    </state>
-    <state width="1398" height="793" key="GridCell.Tab.0.bottom/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607503986747" />
-    <state width="1398" height="793" key="GridCell.Tab.0.bottom/-1440.-395.1440.2560/0.23.1920.1057/1920.136.1280.777@-1440.-395.1440.2560" timestamp="1607326073249" />
-    <state width="1398" height="793" key="GridCell.Tab.0.center" timestamp="1607503986745">
-      <screen x="-1440" y="-395" width="1440" height="2560" />
-    </state>
-    <state width="1398" height="793" key="GridCell.Tab.0.center/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607503986745" />
-    <state width="1398" height="793" key="GridCell.Tab.0.center/-1440.-395.1440.2560/0.23.1920.1057/1920.136.1280.777@-1440.-395.1440.2560" timestamp="1607326073247" />
-    <state width="1398" height="793" key="GridCell.Tab.0.left" timestamp="1607503986744">
-      <screen x="-1440" y="-395" width="1440" height="2560" />
-    </state>
-    <state width="1398" height="793" key="GridCell.Tab.0.left/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607503986744" />
-    <state width="1398" height="793" key="GridCell.Tab.0.left/-1440.-395.1440.2560/0.23.1920.1057/1920.136.1280.777@-1440.-395.1440.2560" timestamp="1607326073245" />
-    <state width="1398" height="793" key="GridCell.Tab.0.right" timestamp="1607503986746">
-      <screen x="-1440" y="-395" width="1440" height="2560" />
-    </state>
-    <state width="1398" height="793" key="GridCell.Tab.0.right/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607503986746" />
-    <state width="1398" height="793" key="GridCell.Tab.0.right/-1440.-395.1440.2560/0.23.1920.1057/1920.136.1280.777@-1440.-395.1440.2560" timestamp="1607326073248" />
-    <state x="-1211" y="524" key="SettingsEditor" timestamp="1607002432988">
-      <screen x="-1440" y="-395" width="1440" height="2560" />
-    </state>
-    <state x="-1211" y="524" key="SettingsEditor/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607002432988" />
-    <state x="-1120" y="612" key="Vcs.Push.Dialog.v2" timestamp="1607504349441">
-      <screen x="-1440" y="-395" width="1440" height="2560" />
-    </state>
-    <state x="-1120" y="612" key="Vcs.Push.Dialog.v2/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607504349441" />
-    <state x="-871" y="791" key="WebDeployment.AddServerDialog.v.1" timestamp="1607051629348">
-      <screen x="-1440" y="-395" width="1440" height="2560" />
-    </state>
-    <state x="-871" y="791" key="WebDeployment.AddServerDialog.v.1/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607051629348" />
-    <state x="-829" y="622" key="ftp.server.browser" timestamp="1607051700260">
-      <screen x="-1440" y="-395" width="1440" height="2560" />
-    </state>
-    <state x="-829" y="622" key="ftp.server.browser/-1440.-395.1440.2560/0.0.1920.1080/1920.113.1280.800@-1440.-395.1440.2560" timestamp="1607051700260" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/jenkins/jenkinsCVE-2017-100053.go</url>
+          <line>94</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
